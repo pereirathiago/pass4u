@@ -57,7 +57,7 @@ include('PHP/verifica_login_logado.php');
                     placeholder="Senha" class="form-control mb-1">
                 <div class="text-right"><a onclick="mostrarSenha()" class="hpurple pointer mr-2">Revelar senha</a></div>
                 <input type="submit" class="btn btn-lg bgpurple btn-block font-weight-bold mt-4" id="enviar" type="submit" value="Cadastre-se">
-                <p class="mt-3">Já possui uma conta? <a href="entrar" class="hpurple">Entrar</a></p>
+                <p class="mt-3">Já possui uma conta? <a href="entrar.php" class="hpurple">Entrar</a></p>
             </form>
             
             <!-- VERIFICAR DADOS DO REGISTRO | INICIO -->
@@ -82,7 +82,7 @@ include('PHP/verifica_login_logado.php');
                         if($row == 0) {
                             if(filter_var($email, FILTER_VALIDATE_EMAIL)){
                                 mysqli_query($conn, $sql);
-                                header('Location: ../entrar');
+                                header('Location: ../entrar.php');
                                 exit();
                             } else {
                                 echo "Preencha o E-mail corretamente!";

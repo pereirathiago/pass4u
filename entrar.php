@@ -77,7 +77,7 @@ include('PHP/verifica_login_logado.php');
                                     $idUsuario = $registro['idUsuario'];
                                     $_SESSION['usuario'] = $nome;
                                     $_SESSION['id'] = $idUsuario;
-                                    header("Location: gerar");
+                                    header("Location: gerar.php");
                                 } else {
                                     echo '<script>                                 
                                     document.getElementById("errorSenha").classList.remove("none") 

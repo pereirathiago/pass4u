@@ -42,7 +42,7 @@ include('PHP/conection.php');
                 <nav class="nav nav-masthead justify-content-center">
                     <a class="nav-link" href="gerar.php">Gerar Senha</a>
                     <a class="nav-link active" href="conta.php"><?php echo $_SESSION['usuario'] ?></a>
-                    <a class="nav-link" href="PHP/sair">Sair</a>
+                    <a class="nav-link" href="PHP/sair.php">Sair</a>
                 </nav>
             </div>
         </header>

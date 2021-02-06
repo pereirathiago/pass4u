@@ -8,7 +8,7 @@
     $sql = "INSERT INTO usuarios (Login, Pass, Email) VALUES ('$user', md5('$pass'), '$email')";
 
     if (mysqli_query($conn, $sql)) {
-        header('Location: logar');
+        header('Location: logar.php');
         exit();
     }
     else {

@@ -1,7 +1,10 @@
 <?php
-session_start();
+if(!isset($_SESSION))
+{
+    session_start();
+}
 if($_SESSION['usuario']) {
-    header('Location: ../gerar');
+    header('Location: ../gerar.php');
     exit();
 }
 ?>

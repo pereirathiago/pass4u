@@ -20,7 +20,7 @@ function mostrarSenha(){
 }
 
 function gerar(){
-    var bg = document.bgetElementById("bodyroxo")
+    var bg = document.getElementById("bodyroxo")
     var navbar = document.getElementById("header")
     var form = document.getElementById("form")
     var formpass = document.getElementById("formpass")

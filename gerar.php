@@ -20,7 +20,7 @@ include('PHP/verifica_login.php');
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Pass4u | Gerar Senha</title>
-    <script src="./scripts/scripts.js"></script>
+    <script src="scripts/scripts.js"></script>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 </head>
 
@@ -32,7 +32,7 @@ include('PHP/verifica_login.php');
                 <nav class="nav nav-masthead justify-content-center">
                     <a class="nav-link active" href="gerar.php">Gerar Senha</a>
                     <a class="nav-link" href="conta.php"><?php echo $_SESSION['usuario']; ?></a>
-                    <a class="nav-link" href="PHP/sair">Sair</a>
+                    <a class="nav-link" href="PHP/sair.php">Sair</a>
                 </nav>
             </div>
         </header>

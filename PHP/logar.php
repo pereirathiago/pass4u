@@ -3,7 +3,7 @@
     include("conection.php");
 
     if(empty($_POST['login']) || empty($_POST['password'])) {
-        header('Location: ../entrar');
+        header('Location: ../entrar.php');
         exit();
     }
 
@@ -18,10 +18,10 @@
 
     if($row == 1) {
         $_SESSION['usuario'] = $usuario;
-        header('Location: ../gerar');
+        header('Location: ../gerar.php');
         exit();
     } else {
-        header('Location: ../entrar');
+        header('Location: ../entrar.php');
         exit();
     }
 ?>
