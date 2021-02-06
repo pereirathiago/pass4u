@@ -30,7 +30,7 @@ include('PHP/verifica_login_logado.php');
             <div class="inner">
                 <h3 class="masthead-brand font-weight-bold purple mb-3">Pass4u</h3>
                 <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link" href="https://pass4u.ml/">Início</a>
+                    <a class="nav-link" href="index.html">Início</a>
                     <a class="nav-link" href="sobre">Sobre</a>
                     <a class="nav-link active" href="entrar">Entre / Cadastre-se</a>
                 </nav>
