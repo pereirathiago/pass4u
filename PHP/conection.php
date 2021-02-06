@@ -1,8 +1,8 @@
 <?php
-    $host = "sql212.epizy.com";
-    $user = "epiz_27189229";
-    $password = "TfAm0z4Eyd6q5Hq";
-    $database = "epiz_27189229_pass4u";
+    $host = "localhost";
+    $user = "pass4u";
+    $password = "vertrigo";
+    $database = "pass4u";
 
 
     // Criar conexão
